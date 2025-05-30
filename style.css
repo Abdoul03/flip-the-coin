@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: rgb(55, 65, 81);
+}
+
+.author-info {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 16px;
+  /* color: rgb(55, 65, 81); */
+  color: white;
+}
+
+.author-info a {
+  text-decoration: none;
+  color: white;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.img {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
