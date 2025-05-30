@@ -74,3 +74,21 @@ h1 {
   background-color: rgb(25, 147, 203);
   color: white;
 }
+
+@keyframes slidein {
+  0% {
+    transform: translateX(0) rotate(0deg);
+  }
+  50% {
+    transform: translateX(10px) rotate(3deg);
+  }
+  100% {
+    transform: translateX(0) rotate(0deg);
+  }
+}
+.rotate {
+  animation: slidein ease-in;
+  /* animation-name: slidein; */
+  animation-duration: 25s;
+  /* transform: rotateX("90deg"); */
+}

@@ -8,6 +8,11 @@ const randomCoin = () => {
   random > 5
     ? (img.src = "./resources/tails.svg")
     : (img.src = "./resources/heads.svg");
+  if (random > 5) {
+    img.classList.add("rotate");
+  } else {
+    img.classList.remove("rotate");
+  }
 };
 
 coin.addEventListener("click", () => {
