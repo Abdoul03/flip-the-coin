@@ -27,10 +27,48 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  gap: 20px;
+  padding-top: 2%;
 }
 
 .img {
   display: flex;
   flex-direction: column;
+  padding: 2%;
   gap: 30px;
+}
+
+h1,
+h2,
+p {
+  color: white;
+}
+h1 {
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.btns {
+  border: 1px solid rgb(25, 147, 203);
+  text-align: center;
+  text-transform: uppercase;
+  width: 6rem;
+  height: 2rem;
+  border-radius: 5px;
+  background-color: rgb(0, 76, 111);
+  color: white;
+  position: relative;
+  z-index: 2;
+}
+.icon {
+  position: relative;
+  z-index: 6;
+  border: 1px solid rgb(25, 147, 203);
+  text-align: center;
+  text-transform: uppercase;
+  width: 6rem;
+  height: 1.8rem;
+  border-radius: 5px;
+  background-color: rgb(25, 147, 203);
+  color: white;
 }
